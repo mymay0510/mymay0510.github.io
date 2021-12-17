@@ -3,8 +3,8 @@ function pad(n, width) {
   return n.length >= width ? n : new Array(width - n.length + 1).join('0') + n;
 }
 
-var dday2018 = new Date("Nov 15, 2018 00:00:00").getTime(); //1초마다 갱신되도록 함수 생성,실행
-var dday2019 = new Date("Nov 18, 2021 00:00:00").getTime();
+var dday2018 = new Date("Dec 22, 2021 00:00:00").getTime(); //1초마다 갱신되도록 함수 생성,실행
+var dday2019 = new Date("Dec 22, 2021 00:00:00").getTime();
 
 var now = new Date().getTime();
 var countDownDate=dday2018;
